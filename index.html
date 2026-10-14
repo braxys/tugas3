@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Pendaftaran</h1>
+        <p class="pengantar">Silakan isi data berikut untuk mendaftar.</p>
+
+        <form action="detail.html" method="GET">
+            <label for="nama">Nama lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+
+            <label for="nim">NIM</label>
+            <input type="text" id="nim" name="nim" placeholder="Masukkan NIM" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="nama   @email.com" required>
+
+            <label for="kelas">Kelas</label>
+            <select id="kelas" name="kelas">
+                <option value="A">Kelas A</option>
+                <option value="B">Kelas B</option>
+                <option value="C">Kelas C</option>
+            </select>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
